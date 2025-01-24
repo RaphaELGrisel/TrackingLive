@@ -115,7 +115,7 @@ if __name__ == "__main__":
     parser.add_argument("--dt", default=0.5, type=float, help="Specify time step")
     parser.add_argument("--OM", default="CLR", type=str, help="Specify observation model to use. Choose CLR or CM")
     parser.add_argument("--mu_c", default=0.5, type=float, help="Specify mean of color-based observation model")
-    parser.add_argument("--sigma_c", default=0.8, type=float, help="Specify variance of color-based observation model")
+    parser.add_argument("--sigma_c", default=1.2, type=float, help="Specify variance of color-based observation model")
 
     parser.add_argument("--resampling", default="SYS", type=str,help="Specify which resampling method to use. Choose either VAN or SYS")
 
